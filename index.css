@@ -12,7 +12,8 @@
   background-color: var(--light-pink);
   background-image: url("./assets/images/background-pattern-desktop.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
+  overflow-y: scroll;
 }
 
 * {
@@ -34,7 +35,7 @@
   background-color: var(--white);
   padding: 2rem;
   border-radius: 8px;
-  max-width: 800px;
+  max-width: 640px;
 }
 
 .faq-card-header-wrapper {
@@ -65,6 +66,7 @@
   font-size: 1.25rem;
   color: var(--dark-purple);
   font-weight: bold;
+  text-align: left;
 }
 .accordion-toggle:hover {
   color: var(--grayish-purple);
